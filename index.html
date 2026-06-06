@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ─── PRIMARY SEO ─────────────────────────────────── -->
+  <title>3M-TECH | Full-Stack Software Developer & Architect</title>
+  <meta name="description"
+    content="3M-TECH is a full-stack software developer specializing in React, Node.js, TypeScript, cloud architecture, and AI integration. Building high-performance digital products that scale." />
+  <meta name="keywords"
+    content="software developer, full-stack developer, React developer, Node.js, TypeScript, web development, API development, cloud architecture, AWS, freelance developer, 3m-tech" />
+  <meta name="author" content="3M-TECH" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#050810" />
+  <link rel="canonical" href="https://3m-tech.net/" />
+
+  <!-- ─── OPEN GRAPH (Facebook / LinkedIn) ────────────── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="3M-TECH" />
+  <meta property="og:title" content="3M-TECH | Full-Stack Software Developer & Architect" />
+  <meta property="og:description"
+    content="Building high-performance digital products — from scalable backend systems to refined user interfaces. Clean code, elegant solutions, exceptional results." />
+  <meta property="og:url" content="https://3m-tech.net/" />
+  <meta property="og:image" content="https://3m-tech.net/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="3M-TECH — Full-Stack Software Developer" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ─── TWITTER CARD ────────────────────────────────── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@3mtech" />
+  <meta name="twitter:creator" content="@3mtech" />
+  <meta name="twitter:title" content="3M-TECH | Full-Stack Software Developer & Architect" />
+  <meta name="twitter:description"
+    content="Building high-performance digital products — React, Node.js, TypeScript, AWS, AI integration." />
+  <meta name="twitter:image" content="https://3m-tech.net/og-image.png" />
+  <meta name="twitter:image:alt" content="3M-TECH — Full-Stack Software Developer" />
+
+  <!-- ─── FAVICON ──────────────────────────────────────── -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23050810'/><text y='.9em' font-size='62' font-family='system-ui,sans-serif' font-weight='900' fill='url(%23g)' x='6'>3M</text><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2360a5fa'/><stop offset='1' stop-color='%23818cf8'/></linearGradient></defs></svg>" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="msapplication-TileColor" content="#050810" />
+
+  <!-- ─── STRUCTURED DATA (JSON-LD) ───────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "3M-TECH",
+    "url": "https://3m-tech.net",
+    "image": "https://3m-tech.net/og-image.png",
+    "sameAs": [
+      "https://github.com/your-username",
+      "https://linkedin.com/in/your-profile",
+      "https://twitter.com/3mtech"
+    ],
+    "jobTitle": "Full-Stack Software Developer",
+    "description": "Full-stack software developer specializing in React, Node.js, TypeScript, and cloud architecture.",
+    "knowsAbout": ["React", "Node.js", "TypeScript", "Python", "AWS", "Docker", "GraphQL", "PostgreSQL"],
+    "offers": {
+      "@type": "Offer",
+      "name": "Software Development Services",
+      "url": "https://3m-tech.net/#services"
+    }
+  }
+  </script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet" />
+  <link href="./css/index.css" rel="stylesheet" />
+
+  <!-- ─── PERFORMANCE ──────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
+</head>
+
+<body>
+
+  <!-- Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Background glows -->
+  <div class="bg-glow-1"></div>
+  <div class="bg-glow-2"></div>
+  <div class="top-alert-banner">
+    <p>This is a demo version portfolio site for <a href="https://www.linkedin.com/in/mehamed-mahdi-maarouf/">Med Mahdi Maarouf</a>. All content is fictional and created for showcase purposes only. Please see us in later versions :)) .</p>
+  </div>
+  <!-- ─── NAV ─────────────────────────────────────── -->
+  <nav>
+    <a class="nav-logo" href="#">3M·TECH</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────────── -->
+  <section id="hero">
+    <!--<div class="hero-tag">Available for Freelance & Full-time</div>-->
+
+    <h1 class="hero-title">
+      <span class="line1">Med Mahdi Maarouf</span>
+      <span class="line2">Full-Stack Software Developer</span>
+      <!--<span class="line3">Developer &amp; Architect</span>-->
+    </h1>
+
+    <div class="hero-meta">
+      <div>
+        <p class="hero-description">
+          Building <em>high-performance</em> digital products at
+          <strong style="color:var(--text)">3m-tech.net</strong> —
+          from scalable backend systems to refined user interfaces.
+          Clean code, elegant solutions, exceptional results.
+        </p>
+        <div class="hero-actions" style="margin-top:32px;">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-secondary">
+            Let's Talk <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-count="10">0</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="48">0</span>
+          <span class="stat-label">Projects Done</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="30">0</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="100" data-suffix="%">0</span>
+          <span class="stat-label">Satisfaction</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrolling ticker -->
+    <div class="hero-ticker">
+      <div class="ticker-inner" id="ticker">
+        <span class="ticker-item">React.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Node.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">TypeScript <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Python <span class="ticker-dot"></span></span>
+        <span class="ticker-item">PostgreSQL <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Docker &amp; K8s <span class="ticker-dot"></span></span>
+        <span class="ticker-item">GraphQL <span class="ticker-dot"></span></span>
+        <span class="ticker-item">REST APIs <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Next.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">AWS &amp; Cloud <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Vue.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">MongoDB <span class="ticker-dot"></span></span>
+        <!-- Duplicate for seamless scroll -->
+        <span class="ticker-item">React.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Node.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">TypeScript <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Python <span class="ticker-dot"></span></span>
+        <span class="ticker-item">PostgreSQL <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Docker &amp; K8s <span class="ticker-dot"></span></span>
+        <span class="ticker-item">GraphQL <span class="ticker-dot"></span></span>
+        <span class="ticker-item">REST APIs <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Next.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">AWS &amp; Cloud <span class="ticker-dot"></span></span>
+        <span class="ticker-item">Vue.js <span class="ticker-dot"></span></span>
+        <span class="ticker-item">MongoDB <span class="ticker-dot"></span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────── -->
+  <section id="about">
+    <div class="about-visual fade-up">
+      <div class="about-orbit"></div>
+      <div class="about-avatar">
+        <img src="./assets/photo.PNG" style="z-index: 0;max-width: 100%;" class="avatar-initials"></img>
+      </div>
+      <div class="about-badge">
+        <span class="badge-value">10+</span>
+        <span class="badge-desc">Years Building</span>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <div class="section-label fade-up">About Me</div>
+      <h2 class="section-title fade-up delay-1">
+        Crafting Code that<br />
+        <em style="font-family:'IBM Plex Serif',serif;font-style:italic;color:var(--accent2);">actually matters</em>
+      </h2>
+
+      <p class="about-text fade-up delay-2">
+        I'm a <strong>full-stack software developer</strong> behind <strong>3m-tech.net</strong>,
+        passionate about creating robust, scalable digital solutions. I bridge the gap between
+        elegant frontend experiences and powerful backend architecture.
+      </p>
+      <p class="about-text fade-up delay-2" style="margin-bottom:28px;">
+        My approach combines <strong>technical precision</strong> with creative problem-solving —
+        whether that's architecting microservices, optimizing database performance, or crafting
+        pixel-perfect interfaces that delight users.
+      </p>
+
+      <div class="about-pills fade-up delay-3">
+        <span class="pill">🏗️ System Architecture</span>
+        <span class="pill">⚡ Performance Optimization</span>
+        <span class="pill">🔐 API Security</span>
+        <span class="pill">🚀 CI/CD Pipelines</span>
+        <span class="pill">🧠 Problem Solver</span>
+        <span class="pill">📐 Clean Code Advocate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ──────────────────────────────────── -->
+  <section id="services">
+    <div class="services-header fade-up">
+      <div>
+        <div class="section-label">What I Do</div>
+        <h2 class="section-title">Services &amp; Expertise</h2>
+      </div>
+      <div class="code-snippet" style="text-align:right;">
+        <div><span class="code-kw">const</span> skills = [</div>
+        <div>&nbsp;&nbsp;<span class="code-str">"frontend"</span>, <span class="code-str">"backend"</span>,</div>
+        <div>&nbsp;&nbsp;<span class="code-str">"devops"</span>, <span class="code-str">"mobile"</span></div>
+        <div>]</div>
+      </div>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <div class="service-number">01</div>
+        <div class="service-icon">⚛️</div>
+        <div class="service-name">Frontend Development</div>
+        <p class="service-desc">Modern, responsive web interfaces built with React, Vue, and Next.js. Pixel-perfect
+          implementation, smooth animations, and outstanding UX.</p>
+        <div class="service-tags">
+          <span class="service-tag">React</span>
+          <span class="service-tag">Next.js</span>
+          <span class="service-tag">Vue.js</span>
+          <span class="service-tag">TypeScript</span>
+        </div>
+      </div>
+
+      <div class="service-card fade-up delay-1">
+        <div class="service-number">02</div>
+        <div class="service-icon">🔧</div>
+        <div class="service-name">Backend &amp; APIs</div>
+        <p class="service-desc">Scalable server-side architecture with Node.js, Python, and Go. Secure REST and GraphQL
+          APIs, real-time systems, and robust database design.</p>
+        <div class="service-tags">
+          <span class="service-tag">Node.js</span>
+          <span class="service-tag">Python</span>
+          <span class="service-tag">GraphQL</span>
+          <span class="service-tag">PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="service-card fade-up delay-2">
+        <div class="service-number">03</div>
+        <div class="service-icon">☁️</div>
+        <div class="service-name">Cloud &amp; DevOps</div>
+        <p class="service-desc">End-to-end deployment pipelines on AWS, GCP, and Azure. Docker, Kubernetes
+          orchestration, CI/CD automation, and infrastructure as code.</p>
+        <div class="service-tags">
+          <span class="service-tag">AWS</span>
+          <span class="service-tag">Docker</span>
+          <span class="service-tag">K8s</span>
+          <span class="service-tag">Terraform</span>
+        </div>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-number">04</div>
+        <div class="service-icon">📱</div>
+        <div class="service-name">Mobile Development</div>
+        <p class="service-desc">Cross-platform mobile apps with React Native. Native-like performance, beautiful UI, and
+          seamless integration with backend services.</p>
+        <div class="service-tags">
+          <span class="service-tag">React Native</span>
+          <span class="service-tag">Expo</span>
+          <span class="service-tag">iOS</span>
+          <span class="service-tag">Android</span>
+        </div>
+      </div>
+
+      <div class="service-card fade-up delay-1">
+        <div class="service-number">05</div>
+        <div class="service-icon">🗃️</div>
+        <div class="service-name">Database Design</div>
+        <p class="service-desc">Architecture and optimization for SQL and NoSQL databases. Query tuning, indexing
+          strategies, migrations, and data modeling for scale.</p>
+        <div class="service-tags">
+          <span class="service-tag">PostgreSQL</span>
+          <span class="service-tag">MongoDB</span>
+          <span class="service-tag">Redis</span>
+          <span class="service-tag">MySQL</span>
+        </div>
+      </div>
+
+      <div class="service-card fade-up delay-2">
+        <div class="service-number">06</div>
+        <div class="service-icon">🤖</div>
+        <div class="service-name">AI Integration</div>
+        <p class="service-desc">Intelligent features powered by LLM APIs and machine learning models. Chatbots,
+          recommendation engines, data analysis, and smart automation.</p>
+        <div class="service-tags">
+          <span class="service-tag">OpenAI</span>
+          <span class="service-tag">LangChain</span>
+          <span class="service-tag">TensorFlow</span>
+          <span class="service-tag">RAG</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ────────────────────────────────────── -->
+  <section id="skills">
+    <div class="skills-layout">
+      <div class="skills-left fade-up">
+        <div class="section-label">Technical Stack</div>
+        <h2 class="section-title">Skills &amp; Tools</h2>
+        <p class="skills-desc">
+          A curated toolkit refined over years of production development.
+          I stay current with modern practices while respecting battle-tested fundamentals.
+        </p>
+        <div style="margin-top:36px;" class="code-snippet">
+          <div><span class="code-cm">// tech philosophy</span></div>
+          <div><span class="code-kw">function</span> <span class="code-fn">solve</span>(problem) {</div>
+          <div>&nbsp;&nbsp;<span class="code-kw">const</span> solution =</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;simplest(elegant(</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;working(problem)</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;));</div>
+          <div>&nbsp;&nbsp;<span class="code-kw">return</span> solution;</div>
+          <div>}</div>
+        </div>
+      </div>
+
+      <div class="skills-categories">
+        <div class="fade-up">
+          <div class="skill-category-title">Frontend</div>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">React / Next.js</span><span
+                  class="skill-pct">95%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">TypeScript</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">Vue.js</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">CSS / Tailwind</span><span
+                  class="skill-pct">92%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:92%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-up delay-1">
+          <div class="skill-category-title">Backend</div>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">Node.js / Express</span><span
+                  class="skill-pct">93%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:93%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">Python / Django</span><span
+                  class="skill-pct">85%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">GraphQL / REST</span><span
+                  class="skill-pct">90%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">PostgreSQL / MongoDB</span><span
+                  class="skill-pct">88%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:88%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-up delay-2">
+          <div class="skill-category-title">DevOps &amp; Cloud</div>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">Docker / Kubernetes</span><span
+                  class="skill-pct">82%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:82%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">AWS (EC2, S3, RDS)</span><span
+                  class="skill-pct">78%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:78%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name-row"><span class="skill-name">CI/CD Pipelines</span><span
+                  class="skill-pct">85%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--target-width:85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────── -->
+  <section id="projects">
+    <div class="projects-header fade-up">
+      <div>
+        <div class="section-label">Portfolio</div>
+        <h2 class="section-title">Selected Projects</h2>
+      </div>
+      <p style="color:var(--text2);font-size:0.82rem;max-width:280px;line-height:1.7;font-weight:300;">
+        A curated selection of work spanning SaaS platforms, mobile apps, and enterprise systems.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card project-card-large fade-up">
+        <div class="project-thumb">
+          <div class="project-thumb-grid"></div>
+          <div class="project-thumb-art">🚀</div>
+          <div class="project-badge">Featured</div>
+        </div>
+        <div class="project-body">
+          <div>
+            <div class="project-meta">
+              <span class="project-type">SaaS Platform</span>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-name">DataFlow Analytics Dashboard</div>
+            <p class="project-desc">Enterprise-grade analytics platform processing 10M+ events daily. Real-time
+              visualizations, custom reporting engine, and multi-tenant architecture deployed on AWS.</p>
+          </div>
+          <div>
+            <p class="project-desc" style="margin-bottom:0">Built with a React frontend, Node.js microservices, Kafka
+              event streaming, and TimescaleDB for time-series data. Reduced client reporting time by 80%.</p>
+            <div class="project-stack" style="margin-top:16px;">
+              <span class="stack-tag">React</span>
+              <span class="stack-tag">Node.js</span>
+              <span class="stack-tag">Kafka</span>
+              <span class="stack-tag">PostgreSQL</span>
+              <span class="stack-tag">AWS</span>
+              <span class="stack-tag">Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card fade-up delay-1">
+        <div class="project-thumb">
+          <div class="project-thumb-grid"></div>
+          <div class="project-thumb-art">🛒</div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-type">E-Commerce</span>
+            <span class="project-year">2024</span>
+          </div>
+          <div class="project-name">NeoMart — Headless Commerce</div>
+          <p class="project-desc">High-performance headless e-commerce with Next.js storefront, custom cart engine, and
+            Stripe integrations. Handles 5k concurrent users.</p>
+          <div class="project-stack">
+            <span class="stack-tag">Next.js</span>
+            <span class="stack-tag">Stripe</span>
+            <span class="stack-tag">Redis</span>
+            <span class="stack-tag">GraphQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card fade-up delay-2">
+        <div class="project-thumb">
+          <div class="project-thumb-grid"></div>
+          <div class="project-thumb-art">🧠</div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-type">AI App</span>
+            <span class="project-year">2025</span>
+          </div>
+          <div class="project-name">SmartAssist — AI Workspace</div>
+          <p class="project-desc">AI-powered team workspace with RAG-based document Q&amp;A, task automation, and
+            multi-LLM orchestration via LangChain.</p>
+          <div class="project-stack">
+            <span class="stack-tag">LangChain</span>
+            <span class="stack-tag">OpenAI</span>
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pinecone</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card fade-up delay-1">
+        <div class="project-thumb">
+          <div class="project-thumb-grid"></div>
+          <div class="project-thumb-art">📱</div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-type">Mobile App</span>
+            <span class="project-year">2023</span>
+          </div>
+          <div class="project-name">HealthTrack — Fitness App</div>
+          <p class="project-desc">Cross-platform fitness app with workout tracking, AI coaching, social features, and
+            wearable device integration. 10k+ active users.</p>
+          <div class="project-stack">
+            <span class="stack-tag">React Native</span>
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">MongoDB</span>
+            <span class="stack-tag">HealthKit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card fade-up delay-2">
+        <div class="project-thumb">
+          <div class="project-thumb-grid"></div>
+          <div class="project-thumb-art">🔐</div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-type">Enterprise</span>
+            <span class="project-year">2023</span>
+          </div>
+          <div class="project-name">SecureAuth — IAM Platform</div>
+          <p class="project-desc">Identity and access management system with OAuth 2.0, SSO, role-based permissions, and
+            audit logging for enterprise clients.</p>
+          <div class="project-stack">
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">OAuth 2.0</span>
+            <span class="stack-tag">Redis</span>
+            <span class="stack-tag">PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ────────────────────────────────── -->
+  <section id="experience">
+    <div class="section-label fade-up">My Journey</div>
+    <h2 class="section-title fade-up delay-1">Experience &amp; Education</h2>
+
+    <div class="exp-layout">
+      <div>
+        <div
+          style="font-family:'IBM Plex Sans',sans-serif;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text3);margin-bottom:32px;margin-top:24px;">
+          Work History</div>
+
+        <div class="exp-item fade-up">
+          <div class="exp-period">2023 – Present</div>
+          <div class="exp-role">Lead Software Developer</div>
+          <div class="exp-company">3M-Tech · Freelance &amp; Consulting</div>
+          <div class="exp-desc">Leading full-stack development for international clients across SaaS, fintech, and
+            healthcare sectors. Architecting scalable solutions and mentoring junior developers.</div>
+        </div>
+
+        <div class="exp-item fade-up delay-1">
+          <div class="exp-period">2021 – 2023</div>
+          <div class="exp-role">Senior Frontend Engineer</div>
+          <div class="exp-company">TechCorp Solutions</div>
+          <div class="exp-desc">Led the migration from legacy Angular to React for a 200k-user platform. Introduced
+            TypeScript, improved Core Web Vitals by 60%, and implemented design system from scratch.</div>
+        </div>
+
+        <div class="exp-item fade-up delay-2">
+          <div class="exp-period">2019 – 2021</div>
+          <div class="exp-role">Full-Stack Developer</div>
+          <div class="exp-company">StartupXYZ</div>
+          <div class="exp-desc">Built the core product from 0 to 1 — API design, database modeling, and React frontend.
+            Grew from 0 to 50k users in 18 months.</div>
+        </div>
+
+        <div class="exp-item fade-up delay-3">
+          <div class="exp-period">2018 – 2019</div>
+          <div class="exp-role">Junior Developer</div>
+          <div class="exp-company">Digital Agency</div>
+          <div class="exp-desc">Delivered 15+ client websites and web applications using WordPress, PHP, and early React
+            projects.</div>
+        </div>
+      </div>
+
+      <div>
+        <div
+          style="font-family:'IBM Plex Sans',sans-serif;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text3);margin-bottom:32px;margin-top:24px;">
+          Education &amp; Certifications</div>
+
+        <div class="edu-item fade-up">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <div class="edu-degree">B.Sc. Computer Science</div>
+            <div class="edu-school">University of Technology</div>
+            <div class="edu-year">2015 – 2018</div>
+          </div>
+        </div>
+
+        <div class="edu-item fade-up delay-1">
+          <div class="edu-icon">☁️</div>
+          <div>
+            <div class="edu-degree">AWS Solutions Architect</div>
+            <div class="edu-school">Amazon Web Services</div>
+            <div class="edu-year">2022</div>
+          </div>
+        </div>
+
+        <div class="edu-item fade-up delay-2">
+          <div class="edu-icon">⚛️</div>
+          <div>
+            <div class="edu-degree">Meta React Professional</div>
+            <div class="edu-school">Meta / Coursera</div>
+            <div class="edu-year">2021</div>
+          </div>
+        </div>
+
+        <div class="edu-item fade-up delay-3">
+          <div class="edu-icon">🐳</div>
+          <div>
+            <div class="edu-degree">Kubernetes CKA</div>
+            <div class="edu-school">Cloud Native Foundation</div>
+            <div class="edu-year">2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────── -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="section-label fade-up" style="justify-content:center;">Contact</div>
+      <h2 class="contact-title fade-up delay-1">
+        Ready to Build<br />
+        <span>Something Great?</span>
+      </h2>
+      <p class="contact-sub fade-up delay-2">
+        I'm open to new projects, collaborations, and exciting challenges.
+        Let's discuss how I can help bring your vision to life.
+      </p>
+      <a href="mailto:contact@3m-tech.net" class="contact-email fade-up delay-2">
+        ✉ contact@3m-tech.net
+      </a>
+      <div class="contact-links fade-up delay-3">
+        
+        <a href="https://www.linkedin.com/in/mehamed-mahdi-maarouf/" class="contact-link" target="_blank">
+          <span class="icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+          </span>
+          LinkedIn
+        </a>
+        <a href="https://wa.me/21699406950" class="contact-link" target="_blank">
+          <span class="icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+            </svg>
+          </span>
+          WhatsApp
+        </a>
+        <a href="https://www.pinterest.com/mahdi_maarouf/" class="contact-link" target="_blank">
+          <span class="icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z">
+              </path>
+            </svg>
+          </span>
+          Pinterest
+        </a>
+        <a href="https://github.com/medmahdimaarouf" class="contact-link" target="_blank">
+          <span class="icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+          </span>
+          GitHub
+        </a>
+        <!--<a href="https://www.linkedin.com/in/mehamed-mahdi-maarouf/" class="contact-link" target="_blank">
+          <span class="icon">𝕏</span>
+          Twitter / X
+        </a>-->
+
+        <!--<a href="#" class="contact-link">
+          <span class="icon">📄</span>
+          Download CV
+        </a>
+      -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────── -->
+  <footer>
+    <div class="footer-left">
+      © 2026 <strong>3M-TECH.NET</strong> · Designed &amp; Built with ❤️
+    </div>
+    <div class="footer-right">
+      <a href="#hero" class="footer-link">Top ↑</a>
+      <a href="#projects" class="footer-link">Projects</a>
+      <a href="#contact" class="footer-link">Contact</a>
+    </div>
+  </footer>
+
+  <!-- ─── SCRIPTS ───────────────────────────────────── -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
